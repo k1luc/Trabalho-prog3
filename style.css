@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --cor1: #F0CF9C;
+    --cor2: #F0D8C4;
+    --cor3: #7A534F;
+    --cor4: #553c39;
+}
+
+body {
+    background-color: var(--cor2);
+}
+
+header {
+    background-color: var(--cor4);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+header h1 {
+    padding: 10px 0px 0px 0px;
+    color: var(--cor1);
+
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 25px 0px 20px 0px;
+
+
+}
+
+nav li a {
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+    margin: 0 2em;
+    font-weight: bold;
+}
+
+nav li :hover {
+    color: var(--cor1);
+}
+
+section {
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+}
+
+section h2 {
+    text-align: center;
+    color: var(--cor1);
+    font-size: 35px;
+    text-shadow: black 6px 7px 5px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+}
+
+
+main {
+    background-color: var(--cor3);
+    max-width: 70%;
+    margin: auto;
+    padding: 40px;
+}
+
+main h2 {
+    text-align: center;
+    color: var(--cor1);
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+footer {
+    background-color: var(--cor4);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    color: var(--cor1);
+}
+
+.social ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.social li {
+    padding: 4px 15px 0px 0px;
+}
+
+.social img:hover {
+    width: 25px;
+}
+
+address {
+    padding: 2px 0px 0px 5px;
+}
+
+.equipe p {
+    padding: 2px 0px 0px 2px;
+}
