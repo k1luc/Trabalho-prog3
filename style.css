@@ -5,18 +5,18 @@
 
 
 :root {
-    --cor1: #F0CF9C;
-    --cor2: #F0D8C4;
-    --cor3: #7A534F;
-    --cor4: #553c39;
+    --cor1: #A79277;
+    --cor2: #D1BB9E;
+    --cor3: #EAD8C0;
+    --cor4: #FFF2E1;
 }
 
 body {
-    background-color: var(--cor2);
+    background-color: var(--cor3);
 }
 
 header {
-    background-color: var(--cor4);
+    background-color: var(--cor1);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -26,7 +26,7 @@ header {
 
 header h1 {
     padding: 10px 0px 0px 0px;
-    color: var(--cor1);
+    color: var(--cor3);
 
 }
 
@@ -48,7 +48,7 @@ nav li a {
 }
 
 nav li :hover {
-    color: var(--cor1);
+    color: var(--cor3);
 }
 
 section {
@@ -61,7 +61,7 @@ section {
 
 section h2 {
     text-align: center;
-    color: var(--cor1);
+    color: var(--cor3);
     font-size: 35px;
     text-shadow: black 6px 7px 5px;
     -webkit-text-stroke-width: 0.1px;
@@ -90,12 +90,13 @@ main h2 {
 
 
 footer {
-    background-color: var(--cor4);
+    background-color: var(--cor1);
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 50px;
-    color: var(--cor1);
+    color: var(--cor3);
+    flex-wrap: wrap;
 }
 
 .social ul {
