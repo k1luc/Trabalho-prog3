@@ -37,11 +37,15 @@ input {
     border: 1px solid black;
     border-radius: 10px;
     background-color: var(--cor4);
+    font-family: sans-serif;
 }
 
 #message {
     margin: 0px 0px 20px 0px;
     background-color: var(--cor4);
+    font-family: sans-serif;
+    width: 100%;
+    padding: 10px;
 }
 
 button {
