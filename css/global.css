@@ -30,8 +30,9 @@ header {
 }
 
 header h1 {
-    padding: 10px 0px 0px 0px;
+    padding: 17px 0px 0px 0px;
     color: var(--cor3);
+    font-size: x-large;
 }
 
 nav ul {
@@ -107,6 +108,11 @@ main h2 {
     align-items: center;
     gap: 4px;
     margin: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 6px 6px 18px var(--cor1); 
 }
 
 .card img {
