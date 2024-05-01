@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lugrasimo&family=Zeyada&display=swap');
 * {
     margin: 0;
     padding: 0;
+    font-family: var(--fonte);
 }
+
 
 
 :root {
@@ -9,6 +12,8 @@
     --cor2: #D1BB9E;
     --cor3: #EAD8C0;
     --cor4: #FFF2E1;
+    --cor5: #7D6352;
+    --fonte: "Cinzel", serif;;
 }
 
 body {
@@ -27,7 +32,6 @@ header {
 header h1 {
     padding: 10px 0px 0px 0px;
     color: var(--cor3);
-
 }
 
 nav ul {
@@ -122,12 +126,14 @@ main h2 {
 
 .card h3 {
     font-size: 1.2em;
+    color: var(--cor5);
 }
 
 .card p {
     font-size: .9em;
     color: rgb(87, 85, 85);
     max-width: 210px;
+    color: var(--cor5);
 }
 
 .card button {
