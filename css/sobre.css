@@ -26,9 +26,12 @@ picture {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+
 }
 
 picture img {
-    padding: 10px;
+    margin: 10px;
     min-width: 10px;
+    border: solid white 5px;
+    border-radius: 50px;
 }

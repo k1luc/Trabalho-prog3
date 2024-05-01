@@ -41,7 +41,7 @@ nav ul {
 }
 
 nav li a {
-    color: rgb(230, 230, 230);
+    color: var(--cor4);
     text-decoration: none;
     margin: 0 2em;
     font-weight: bold;
@@ -127,6 +127,7 @@ main h2 {
 .card p {
     font-size: .9em;
     color: rgb(87, 85, 85);
+    max-width: 210px;
 }
 
 .card button {

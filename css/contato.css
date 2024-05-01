@@ -1,14 +1,23 @@
-main {
-    font-family: sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
+
+:root {
+    --cor1: #A79277;
+    --cor2: #D1BB9E;
+    --cor3: #EAD8C0;
+    --cor4: #FFF2E1;
+}
+
+
+section {
+    padding: 80px;
+}
+
+main  h2{
+    text-align: left;
+    color: var(--cor3);
 }
 
 .contatos {
-    background-color: white;
+    background-color: var(--cor1);
     padding: 20px 150px 20px 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.63);
@@ -16,7 +25,7 @@ main {
 
 label {
     display: block;
-    color: gray;
+    color: var(--cor3);
     font-weight: bold;
     font-size: 150%;
 }
@@ -26,14 +35,22 @@ input {
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid black;
-    border-radius: 3px;
+    border-radius: 10px;
+    background-color: var(--cor4);
+}
+
+#message {
+    margin: 0px 0px 20px 0px;
+    background-color: var(--cor4);
 }
 
 button {
     width: 111%;
     padding: 10px;
+    border-radius: 10px;
+    background-color: var(--cor3);
 }
 
 button:hover {
-    background-color: lightgray;
+    background-color: var(--cor2);
 }
