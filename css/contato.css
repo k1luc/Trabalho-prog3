@@ -8,7 +8,7 @@
 
 
 section {
-    padding: 80px;
+    padding: 70px;
 }
 
 main  h2{
@@ -16,11 +16,19 @@ main  h2{
     color: var(--cor3);
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
 .contatos {
     background-color: var(--cor1);
-    padding: 20px 150px 20px 20px;
+    padding: 20px 50px 20px 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.63);
+    width: 500px;
 }
 
 label {
@@ -31,25 +39,27 @@ label {
 }
 
 input {
-    width: 70%;
+    width: 100%;    
     padding: 10px;
-    margin-bottom: 10px;
+    margin: 0px 0px 10px 0px;
     border: 1px solid black;
     border-radius: 10px;
     background-color: var(--cor4);
     font-family: sans-serif;
+
 }
 
 #message {
     margin: 0px 0px 20px 0px;
     background-color: var(--cor4);
     font-family: sans-serif;
-    width: 70%;
+    width: 100%;
     padding: 10px;
+    border-radius: 10px;
 }
 
 button {
-    width: 70%;
+    width: 105%;
     padding: 10px;
     border-radius: 10px;
     background-color: var(--cor3);
