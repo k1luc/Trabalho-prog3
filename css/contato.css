@@ -15,7 +15,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 110vh;
 }
 
 .contatos {
@@ -24,6 +23,7 @@ main {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.63);
     width: 500px;
+    margin: 80px auto;
 }
 
 label {
@@ -41,7 +41,6 @@ input {
     border-radius: 10px;
     background-color: var(--cor4);
     font-family: sans-serif;
-
 }
 
 #message {
