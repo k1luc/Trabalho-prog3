@@ -6,11 +6,6 @@
     --cor4: #FFF2E1;
 }
 
-
-section {
-    padding: 70px;
-}
-
 main  h2{
     text-align: left;
     color: var(--cor3);
